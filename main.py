@@ -20,7 +20,7 @@ async def send_introduction_message():
     for guild in client.guilds:
         for channel in guild.text_channels:
             if channel.permissions_for(guild.me).send_messages:
-                await channel.send("Hmm... Kept you waiting, huh. I can help with your code. Start your message with '!explain' to explain your code, '!code' to give suggestions on how to code something, '!debug' to debug your code, or 'stop' for me to leave")
+                await channel.send("Kept you waiting, huh. I can help with your code. Start your message with '!explain' to explain your code, '!code' to give suggestions on how to code something, '!debug' to debug your code, or 'stop' for me to leave")
                 return
 
 @client.event

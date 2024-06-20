@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This Discord bot assists users with coding tasks using the OpenAI GPT-3.5 model. It can explain code snippets, debug issues, and provide coding suggestions based on user input.
+This Discord bot assists users with coding tasks using the OpenAI API. It can explain code snippets, debug issues, and provide coding suggestions based on user input.
 
 ## Features
 
@@ -28,8 +28,8 @@ To use this bot in your Discord server, follow these steps:
 1. **Prerequisites**:
 
    - Python 3.6 or higher installed.
-   - Discord.py library installed (`pip install discord.py`).
-   - OpenAI API key. (Sign up at [OpenAI](https://beta.openai.com/docs/get-started) to get an API key.)
+   - Discord.py library installed.
+   - OpenAI API install and key.
 
 2. **Installation**:
 
@@ -41,7 +41,7 @@ To use this bot in your Discord server, follow these steps:
 
    - Install dependencies:
      ```
-     pip install -r requirements.txt
+     pip3 install -r requirements.txt
      ```
 
 3. **Setup Environment**:
@@ -55,7 +55,7 @@ To use this bot in your Discord server, follow these steps:
 4. **Running the Bot**:
    - Start the bot by running `main.py`:
      ```
-     python main.py
+     python3 main.py
      ```
 
 ## Usage
@@ -75,7 +75,7 @@ User: !explain (Insert code)
 Bot: Hmm... (response from openai API)
 
 User: !code how can you print "Hello, world" in javascript
-Bot: Hmm... the method to print "Hello, world" with javascript is with console.log("Hello, world")
+Bot: Hmm... the method to print "Hello, world" with javascript is with **console.log("Hello, world")**
 
 User: stop
 Bot: Snake, out
