@@ -72,10 +72,13 @@ Once the bot is running and added to your Discord server, you can interact with 
 Here’s an example of interacting with the bot in a Discord channel:
 
 User: !explain (Insert code)
+
 Bot: Hmm... (response from openai API)
 
 User: !code how can you print "Hello, world" in javascript
-Bot: Hmm... the method to print "Hello, world" with javascript is with **console.log("Hello, world")**
+
+Bot: Hmm... the method to print "Hello, world" with javascript is with `console.log("Hello, world")`
 
 User: stop
+
 Bot: Snake, out
